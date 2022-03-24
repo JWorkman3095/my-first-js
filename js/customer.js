@@ -1,5 +1,4 @@
 // console to check before we start to test it is connected
-
 const customers = [
     { id: 1, name: "MAX", active: true, sales: 10000 },
     { id: 2, name: "P&G", active: true, sales: 1000000 },
@@ -12,6 +11,7 @@ const loaded = () => {
 
 const display = (customers) => {
     //pass in a collect of customer and pass to the web
+    //assigning what's on the right to storing that in tbodyCtrl
     const tbodyCtrl = document.getElementById("custs");
 
     //foreach to cycle thru
